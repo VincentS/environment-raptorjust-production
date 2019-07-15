@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: vs-ci-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: vs-ci-production
+  pipelines: {}
